@@ -9,6 +9,9 @@ import { ValidadoresService } from '../../services/validadores.service';
 })
 export class Reactive2Component implements OnInit {
 
+  //========== PRUEBAS DE GIT ==============
+  
+
   forma: FormGroup;
   constructor(private fb: FormBuilder,
               private validadores: ValidadoresService) {
